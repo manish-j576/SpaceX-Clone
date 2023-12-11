@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.box1{
+    background-image: url(./resources/images/Firstimage.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* css of navigation bar */
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 28px;
+    /* border:2px solid green; */
+}
+.menu-bar{
+    display: flex;
+    width: max-content;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.menu-bar ul{
+    display: flex;
+    gap:36px;
+
+}
+.menu-bar ul li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.menu-bar ul li a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.shop-dropdown{
+    right: 41px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 106px;
+    color:white;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+.shop-dropdown span{
+    font-weight: bolder;
+}
+.shop-dropdown img{
+    filter: invert(1);
+   height:30px;
+   
+}
+
+
+
+
+/* css of lower left text */
+.lower-text{
+    /* background-color: aqua; */
+    width: 30vw;
+    position: relative;
+    top: 50vh;
+    right:-42px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+
+.lower-text p{
+    font-size: 20px;
+
+}
+.lower-text h1{
+    font-size: 48px;
+}
+.lower-text button{
+    border: 3px solid rgb(255, 255, 255);
+    width:180px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    background-color: transparent;
+    color:white;
+    font-weight: bolder;
+}
+.lower-text button:hover{
+    background-color: white;
+    color: black;
+}
+.lower-text button p{
+    font-size: 14px;
+    
+   
+}
