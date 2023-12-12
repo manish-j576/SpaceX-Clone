@@ -5,35 +5,11 @@
     padding: 0;
 
 }
-body{
-    background-color: black;
-}
-.box-1{
-    border: 2px solid white;
-    width:30vw;
-    height:50vh;
-}
-button{
-    height: 45px;
-    width:67px;
-    position: relative;
-
-}
-button .moving-box{
-    width:110%;
-    height: 100%;
-    background-color: red;
-    position: relative;
-    right:5px;
-    bottom:-30px;
-}
-button:hover{
-    background-color: aqua;
-    animation: bg-change 1s linear;
-}
-@keyframes bg-change{
-    to{
-        translate: ;
-    }
-    
+.box{
+    background-image: url(./resources/images/Box2-image.jpg);
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    background-origin: border-box;
+    border: 2px solid red;
 }
